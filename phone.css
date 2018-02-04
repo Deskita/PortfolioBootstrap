@@ -6,9 +6,11 @@
   }
   
   .second {
-    align-items:flex-start;
-    justify-content: flex-start;
+    align-items:flex-start !important;
+    justify-content: flex-start !important;;
     padding: 5vh;
+    background-image: none;
+    height: 50vh;
     
   }
   
@@ -17,7 +19,10 @@
     font-size: 5vw;
     font-weight: 330;
     line-height: 1.15em;
+     background-image: none;
   }
+  
+  
   
   .underline {
    border-bottom: 2px solid #ffd42d;

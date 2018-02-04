@@ -1,0 +1,22 @@
+.portfolio-grid {
+  background-color: beige;
+  height: 30vh;
+  width: 100%;
+}
+
+.portfolio-grid-1 {
+  background-color: pink;
+  height: 90vh;
+  width: 100%;
+}
+
+.portfolio-grid-2 {
+  background-color: yellow;
+  height: 70vh;
+  width: 100%;
+}
+
+.grid {
+
+  height: 100px;
+}
