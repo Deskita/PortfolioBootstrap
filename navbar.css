@@ -1,0 +1,22 @@
+.navbar {
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  z-index: 999;
+  width: 550px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  
+}
+
+.menu-links {
+  color: #000;
+  font-size: 1.5em;
+}
+
+.menu-links:hover {
+  text-decoration: underline;
+  color: #000;
+  background: none;
+}
