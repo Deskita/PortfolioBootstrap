@@ -1,0 +1,28 @@
+
+@media screen and (max-width: 768px) {
+  
+  .full-height {
+    display: none; 
+  }
+  
+  .second {
+    align-items:flex-start;
+    justify-content: flex-start;
+    padding: 5vh;
+    
+  }
+  
+  .about-me {
+    text-align: left;
+    font-size: 5vw;
+    font-weight: 330;
+    line-height: 1.15em;
+  }
+  
+  .underline {
+   border-bottom: 2px solid #ffd42d;
+  }
+
+  
+}
+

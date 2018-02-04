@@ -3,6 +3,11 @@ html, body {
 	
 }
 
+::selection {
+  background-color: #ffd42d;
+  color: #fff;
+}
+
 
 .fixed-height {
 	height: 100%;
@@ -59,7 +64,7 @@ html, body {
 }
 
 .icon:hover {
-	background-image: none; 
+	background-image: url(Images/Flamingo-gif-trial); 
 	
 }
 
