@@ -8,9 +8,9 @@
   .second {
     align-items:flex-start !important;
     justify-content: flex-start !important;;
-    padding: 5vh;
+    padding: 20px;
     background-image: none;
-    height: 50vh;
+    height: 40vw;
     
   }
   
@@ -27,7 +27,40 @@
   .underline {
    border-bottom: 2px solid #ffd42d;
   }
+  
+  
+  .portfolio-grid {
+  background-color: beige;
+  height: 90vh;
+  width: 100%;
+}
+
+.portfolio-grid-1 {
+  background-color: pink;
+  height: 90vh;
+  width: 100%;
+}
+
+.portfolio-grid-2 {
+  background-color: yellow;
+  height: 90vh;
+  width: 100%;
+}
+
+.grid {
+  display: none;
+  
+}
+
+.brick-phone {
+  margin: 0 20px 65px 20px;
 
   
 }
+  
+  #phone-grid {
+    display: flex;
+   
+    padding: 0;
+  }  
 
