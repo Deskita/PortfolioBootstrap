@@ -1,0 +1,129 @@
+
+.img-bg {
+	background: url(images/C-_Users_desislava_Desktop_Mock_up_brochure_5_v7.jpg) no-repeat center;
+	 -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+	height: 70vh;
+	width: 100%;
+	max-width: 100%;
+	max-height: 100%;
+	overflow: hidden;
+	
+	
+
+ 
+}
+
+
+@media only screen and (max-width: 768px) {
+	
+	.img-bg {
+		height: 55vh;
+	}
+	
+	.description {
+		margin-top: 30px;
+		padding: 0 30px 0;
+	}
+	
+	.description-title {
+		justify-content: flex-start;
+		margin-top: 30px;
+		padding: 0 30px 0;
+	}
+	
+	
+	.img-wrap-char {
+	display: flex;
+	justify-content: center;
+}
+
+.text-wrap-char {
+	display: flex;
+	align-items: center;
+	flex-direction: row;
+		justify-content: center;
+}
+	
+	
+}
+
+@media only screen and (min-width: 768px) {
+	
+	.description-title {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+	margin-top: 70px;	
+	
+}
+
+.description {
+	margin-top: 70px;
+}
+	
+	.img-wrap-char {
+	display: flex;
+	justify-content: center;
+}
+	.text-wrap-char {
+		display: flex;
+		justify-content: center;
+	}
+	
+}
+
+@media only screen and (min-width: 992px) {
+	
+	
+	.img-wrap-char {
+	display: flex;
+	justify-content: flex-end;
+}
+	
+	.text-wrap-char {
+	display: flex;
+	align-items: center;
+	flex-direction: row;
+	justify-content: flex-start;
+}
+}
+
+/*
+.characters-wrap {
+	display: flex;
+	justify-content: center;
+	margin-top: 30px;
+
+}
+
+
+
+@media only screen and (min-width: 1200px) {
+
+.img-wrap-char {
+	display: flex;
+	justify-content: flex-end;
+}
+
+.text-wrap-char {
+	display: flex;
+	align-items: center;
+	flex-direction: row;
+	justify-content: flex-start;
+}
+	
+}
+
+*/
+
+#characters {
+	height: 400px;
+}
+
+.click-char {
+	border-bottom: solid 5px #ffd42d;
+	padding-bottom: 3px;
+}

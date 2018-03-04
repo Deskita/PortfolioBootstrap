@@ -1,9 +1,15 @@
 html, body {
 	height: 100%;
+	width: 100%;
 	
 }
 
 ::selection {
+  background-color: #ffd42d;
+  color: #fff;
+}
+
+::-moz-selection {
   background-color: #ffd42d;
   color: #fff;
 }
@@ -128,4 +134,10 @@ html, body {
 #phone-grid {
   display: none;
 }
+
+a.grid-links {
+	text-decoration: none;
+	color: #000;
+}
+
 

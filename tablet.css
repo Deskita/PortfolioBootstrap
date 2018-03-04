@@ -1,0 +1,94 @@
+
+/*
+.tablet-left {
+	background-image: url(images/iPad---left.jpg);
+	background-attachment: scroll;
+	background-size: contain;
+	background-position: left;
+	background-repeat: no-repeat;
+	height: 600px;
+	width: 100%;
+	padding: 0;
+	position: relative;
+}
+
+
+.tablet-right {
+	background-image: url(images/iPad-right.jpg);
+	background-attachment: ;
+	background-size: contain;
+	background-position: left;
+	background-repeat: no-repeat;
+	height: 600px;
+	width: 100%;
+	margin-top: 1000px;
+	
+	
+	
+}
+
+*/
+
+
+
+.tablet-description {
+	
+	padding-left: 0;
+	display: flex;
+	align-items: center;
+	position: fixed;
+	right: 0;
+	top: 600px;
+	right: 37vw;
+
+}
+
+
+/*
+.empty {
+	height:300px;
+	width: 100%;
+}
+*/
+
+.img-left {
+	height: 600px;
+	position: fixed;
+	top: 291px;
+	right: 48.77vw;
+	display: flex;
+	max-width: 100%;
+}
+
+.img-right {
+height: 600px;
+max-height: 100%;	
+position: relative;
+	left: 49.6vw;
+	top: 33px;
+	
+
+	
+	
+}
+
+/*
+
+.tablet-left {
+	height: 70vh;
+}
+
+*/
+
+.em {
+	height: 10.3vh;
+}
+
+
+
+.wrap-scroll {
+	height: 800px;
+	margin-bottom: 130px;
+	display: flex;
+	clear: both;
+}

@@ -1,38 +1,255 @@
-.portfolio-grid {
-  background-color: beige;
-  height: 50vh;
-  width: 100%;
+@media only screen and (min-width: 768px) {
+	
+	
+	.grid {
+  -webkit-column-count: 2;
+	-moz-column-count: 2;
+	column-count: 2;
+	-webkit-column-fill: auto;
+	-moz-column-fill: auto;
+	column-fill: auto;
+	-webkit-column-gap: 1em;
+	-moz-column-gap: 1em;
+	column-gap: 1em;
+	font-size: .85em;
+	height: 1800px;
+	
 }
+}
+
+
+@media only screen and (min-width: 1200px) {
+	
+	.grid {
+  -webkit-column-count: 3;
+	-moz-column-count: 3;
+	column-count: 3;
+	-webkit-column-fill: auto;
+	-moz-column-fill: auto;
+	column-fill: auto;
+	-webkit-column-gap: 20px;
+	-moz-column-gap: 20px;
+	column-gap: 1em;
+	font-size: .85em;
+	height: 2000px;
+		position: relative;
+	
+}
+	
+}
+
+	
+
+
+
+.brick {
+	display: inline-block;
+	margin-bottom: 1em;
+  width: 100%;
+	background-color: #5e5e5e;
+	
+}
+
+/*
+
+Making all of teh photo more transparent without the one that you are hovoring over.
+
+div.grid:hover img {
+	opacity: 0.3;
+}
+
+div.grid:hover img:hover {
+	opacity: 1;
+}
+
+
+*/
+
+/*
+
+Making the cover of the damms responsive.
+
+
+.cover-presas {
+	max-width: 100%;
+	width: 100%;
+	max-height: 100%;
+	position: relative;
+	z-index: 999;
+}
+
+.cover-presas-blank {
+	position: absolute;
+	max-width: 100%;
+	max-height: 100%;
+  top: 0;
+
+}
+
+.cover-presas:hover {
+	opacity: 0;
+}
+
+
+*/
+
+
+
+.title-wrap {
+	height: 750px;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+	
+}
+
+.slide {
+	
+	height: 50px;
+	margin-top: 50%;
+	overflow-y: hidden;
+}
+
+.title {
+	opacity: 0;
+	margin-top: -50%;
+	-webkit-transition: padding-top .5s;
+}
+
+.title-wrap:hover .title {
+	padding-top: 50%;
+	opacity: 1;
+		
+ 
+}
+
+
+
+.portfolio-grid {
+	background: url(Images/cover_presas-bg-azul.jpg) no-repeat center;
+	background-size: contain;
+	max-width: 100%;
+    background-color: #abf4fb;
+    height: 550px;
+	
+}
+
+.portfolio-grid:hover {
+	background: url(images/Cover_presas_blank.jpg) no-repeat center;
+	background-size: contain;
+    background-color: #f7da64;
+	max-width: 100%;
+	width: 100%;
+  height: 550px;
+}
+
+
 
 .portfolio-grid-1 {
   background-color: pink;
-  height: 50vh;
-  width: 100%;
+  height: 450px;
+	
+ 
 }
 
 .portfolio-grid-2 {
-  background-color: yellow;
-  height: 50vh;
-  width: 100%;
+  background-color: #5e5e5e;
+  height: 500px;
+	
+  
 }
 
 .portfolio-grid-3 {
-  background-color: #f5eb1a;
-  height: 50vh;
-  width: 100%;
+  	background: url(Images/ComputerSpinGif-pink.jpg) no-repeat center;
+	background-size: contain;
+	max-width: 100%;
+    background-color: #abf4fb;
+  background-color: #f06eaa;
+  height: 450px;
+  
 }
+
+.portfolio-grid-3:hover {
+  	background: url(Images/ComputerSpinGif-pink.gif) no-repeat center;
+	background-size: contain;
+	max-width: 100%;
+    background-color: #abf4fb;
+  background-color: #f06eaa;
+  height: 450px;
+  
+}
+
+
+.title-wrap-3 {
+	height: 500px;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+	
+}
+
+.slide-3 {
+	height: 50px;
+	margin-top: 50%;
+	overflow-y: hidden;
+}
+
+.title-3 {
+	opacity: 0;
+	margin-top: -50%;
+	-webkit-transition: padding-top .5s;
+}
+
+.title-wrap-3:hover .title-3 {
+	padding-top: 50%;
+	opacity: 1;
+		
+ 
+}
+
+
+
+
 
 .portfolio-grid-4 {
   background-color:beige;
-  height: 50vh;
-  width: 100%;
+  height: 350px;
+  
 }
 
 .portfolio-grid-5 {
-  background-color: pink;
-  height: 50vh;
-  width: 100%;
+  background-color: darkseagreen;
+  height: 700px;
+;
+  
 }
+
+.portfolio-grid-6 {
+  height: 650px;
+	
+  
+}
+
+.portfolio-grid-7 {
+	background-color: salmon;
+  height: 300px;
+
+  
+}
+
+.portfolio-grid-8 {
+	background-color: paleturquoise;
+  height: 600px;
+	
+  
+}
+
+
+
 
 /*
 .grid {

@@ -1,0 +1,253 @@
+
+/*
+.tablet-left {
+	background-image: url(images/iPad---left.jpg);
+	background-attachment: scroll;
+	background-size: contain;
+	background-position: left;
+	background-repeat: no-repeat;
+	height: 600px;
+	width: 100%;
+	padding: 0;
+	position: relative;
+}
+
+
+.tablet-right {
+	background-image: url(images/iPad-right.jpg);
+	background-attachment: ;
+	background-size: contain;
+	background-position: left;
+	background-repeat: no-repeat;
+	height: 600px;
+	width: 100%;
+	margin-top: 1000px;
+	
+	
+	
+}
+
+*/
+
+body {
+	/*
+	background-color: #FFA4AF;
+	*/
+	background-color: rgba(255, 175, 59, .5);
+	height: 1000px;
+	width: 100%;
+}
+
+.tablet-description {
+	
+	padding: 25px;
+	position: fixed;
+	top: 40vh;
+	left: 50%;
+	
+
+
+
+}
+
+.text {
+	width: 300px;
+	font-size: 2.5vw;
+ 
+}
+
+
+/*
+.empty {
+	height:300px;
+	width: 100%;
+}
+*/
+
+.img-left {
+	max-height: 600px;
+	max-width: 100%;
+
+}
+
+.tablet-left {
+	position: fixed;
+	top: 15vh;
+	right: 49.95%;
+}
+
+
+div.tablet-right {
+	width: 50%;
+	left: 50%;
+	position: -webkit-sticky;
+  position: sticky;
+	top: 15vh;
+	margin-top: 2000px;
+	
+	
+}
+
+.img-right {
+  max-height: 600px;
+	max-width: 100%;
+		
+}
+
+.empty {
+	background-color: #fff;
+	width: 100%;
+	position: absolute; 
+	height: 1000px;
+	margin-top: -2000px;
+	
+}
+
+
+/* video */
+
+
+.wrap-video {
+ position: fixed;
+top: 27vh;
+left: 26.1vw;
+	
+	
+
+	
+}
+
+.greeting-video {
+	max-height: 400px;
+	max-width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+
+.block-right {
+	background-color: aquamarine;
+	height: 100px;
+	width: 900px;
+	position: absolute;
+	top: 100px;
+	display: block;
+}
+
+*/
+
+
+
+
+/*
+
+.tablet-left {
+	height: 70vh;
+}
+
+
+
+
+
+
+
+.wrap-scroll {
+	
+	display: flex;
+	position: relative;
+	height: 1500px;
+	
+
+}
+
+
+
+@media screen and (max-height: 500px) {
+	
+	
+
+.tablet-description {
+	
+	padding: 25px;
+	position: fixed;
+	top: 190px;
+	left: 50%;
+
+
+}
+
+.text {
+	width: 350px;
+}
+	
+	
+.img-left {
+	height: 600px;
+	min-width: 100%;
+
+}
+
+.tablet-left {
+	position: fixed;
+	top: 50px;
+	right: 49.95%;
+}
+
+.img-right {
+  height: 600px;
+
+	
+}
+
+div.tablet-right {
+	
+	width: 50%;
+	right: 0;
+	position: -webkit-sticky;
+  position: sticky;
+	top: 50px;
+	display: flex;
+	margin-top: 2150px;
+	
+	
+	
+}
+
+	
+}
+
+*/
